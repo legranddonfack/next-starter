@@ -1,9 +1,10 @@
 
 
-const Button = ({children, onClick, className, type, bgColor}) => {
+const Button = ({children, onClick, className, type, bgColor, id}) => {
   if (type && type === "icon") {
     return (
       <button 
+        id={id || ''}
         onClick={onClick}
         className={`${className} rounded-[5px] w-[40px] h-[40px] bg-${bgColor}-light hover:bg-${bgColor} active:bg-${bgColor}-light flex items-center justify-center`}>
         { children }
