@@ -14,9 +14,18 @@ module.exports = {
         'primary': '#001E72',
         'secondary': '#09D4A5',
         'background-main': '#F5F7F9',
-        'grey': '#F2F2F2',
+        'grey': '#DDDDDD',
         'grey-dark': '#6F6F6F',
-        'grey-light': '#DDDDDD'
+        'grey-light': '#F2F2F2'
+      },
+      fontSize: {
+        sm: '10px',
+        medium: '15px',
+        xl: '25px',
+        '2xl': '1.563rem',
+        '3xl': '1.953rem',
+        '4xl': '2.441rem',
+        '5xl': '3.052rem',
       }
     },
   },

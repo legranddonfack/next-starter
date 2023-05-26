@@ -4,9 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --text-color-primary: #001E72;
+}
 
 html {
     font-family: var(--font-montserrat);
+    color: var(--text-color-primary);
 }
 
 
@@ -15,9 +19,8 @@ html {
   min-height: 100vh;
   position: fixed;
   display: flex;
-  justify-content: center;
-  padding: 120px 24px 160px 24px;
-  pointer-events: none;
+  flex-direction: column;
+  /* pointer-events: none; */
   background-color: #F5F7F9;
 }
 
@@ -30,10 +33,22 @@ html {
 
 /* Tailwind Styles */
 
-.app {
+.main-container {
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
 
+.header {
+  @apply bg-white px-[140px] h-[65px] flex items-center w-screen;
+  border-bottom: 0.5px solid #DDDDDD;
+}
+
+.nav {
+  @apply flex flex-row items-center justify-between w-full
+}
+
+.logo {
+  @apply text-primary text-xl font-bold
+}
 
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;

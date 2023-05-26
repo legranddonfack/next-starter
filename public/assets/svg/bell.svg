@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="28.5" viewBox="0 0 27 28.5">
+  <g id="bell" transform="translate(-2.5 -1.5)">
+    <path id="Path_10" data-name="Path 10" d="M9.4,3h7.833q4.7,0,6.267-3V24q-1.567-3-6.267-3H9.4A9.207,9.207,0,0,1,0,12H0A9.207,9.207,0,0,1,9.4,3Z" transform="translate(28 3) rotate(90)" fill="none" stroke="#001e72" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_11" data-name="Path 11" d="M0,4A2,2,0,0,0,0,0" transform="translate(18 26.5) rotate(90)" fill="none" stroke="#001e72" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

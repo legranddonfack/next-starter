@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_53" data-name="Rectangle 53" width="28" height="28" transform="translate(1263 943)" fill="#fff" stroke="#6f6f6f" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_8" data-name="Mask Group 8" transform="translate(-1263 -943)" clip-path="url(#clip-path)">
+    <g id="share-android" transform="translate(1264.2 945.8)">
+      <path id="Path_17" data-name="Path 17" d="M23.771,10.971l-12.8,4.8Zm0,12.8-12.8-4.8Z" transform="translate(-4.571 -6.171)" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.057"/>
+      <circle id="Ellipse_18" data-name="Ellipse 18" cx="3.2" cy="3.2" r="3.2" transform="translate(0 8)" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.057"/>
+      <circle id="Ellipse_19" data-name="Ellipse 19" cx="3.2" cy="3.2" r="3.2" transform="translate(19.2 0)" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.057"/>
+      <circle id="Ellipse_20" data-name="Ellipse 20" cx="3.2" cy="3.2" r="3.2" transform="translate(19.2 16)" fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.057"/>
+    </g>
+  </g>
+</svg>

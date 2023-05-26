@@ -1,5 +1,7 @@
 import "@styles/globals.css"
-import { Montserrat } from 'next/font/google'
+import { Montserrat } from "next/font/google"
+import Navbar from "@components/Navbar"
+import Footer from "@components/Footer"
 
 const montserrat = Montserrat({
     weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -17,13 +19,12 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en" className={`${montserrat.variable}`}>
-        <body>
-            <div className="main">
-                
-            </div>
-            <main className="app">
+        <body className="main">
+            <Navbar/>
+            <main className="main-container">
                 { children }
             </main>
+            <Footer/>
         </body>
     </html>
   )
