@@ -38,7 +38,7 @@ html {
 }
 
 .header {
-  @apply bg-white px-[140px] h-[65px] flex items-center w-screen;
+  @apply bg-white px-[40px] md:lg:xl:px-[140px] h-[50px] md:lg:xl:h-[65px] flex items-center w-screen;
   border-bottom: 0.5px solid #DDDDDD;
 }
 
